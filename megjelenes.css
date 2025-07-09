@@ -1,0 +1,116 @@
+body{
+    background-color: green;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+#ananas{
+    float: left;
+    /*magasság*/
+    width: 150px;
+    /*szélesség*/
+    height: auto;
+}
+
+table, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: white;
+    clear:both
+    /*clear:none*/
+
+
+}
+
+#vid{
+    background-image: url(smiley.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+ol>li{
+    /*ne legyen lista felsoroló elem*/
+    list-style-type: none;
+}
+
+ul>li{
+    list-style-image: url('smiley2.png');
+    list-style-position: inside;
+}
+
+/*éppen kattintok rajta*/
+a:active{
+    text-decoration: none;
+}
+
+/*már meglátogatott (kattintott)*/
+a:visited{
+    text-decoration: none;
+}
+
+/*ha ráhúzom az egeret*/
+a:hover{
+    text-decoration: none;
+}
+
+/*még sosem kattintott*/
+a:link{
+    text-decoration: none;
+}
+
+#szoveg{
+    text-indent: 50px;
+    /*sorkizárt szöveg igazítás*/
+    text-align: justify;
+}
+
+div{
+    border: 1px gray solid;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div>h1{
+    color: black;
+}
+
+#kezdo{
+    text-transform: capitalize;
+    /*line-height: 20px;
+    text-transform: uppercase;*/
+}
+
+.na{
+    /*aláhúzott*/
+    text-decoration: underline;
+}
+
+.fk{
+    /*félkövér*/
+    font-weight: bold;
+}
+
+.dolt{
+    /*dőlt*/
+    font-style: italic;
+}
+
+#paris{
+    /*lekerekítés*/
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
